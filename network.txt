@@ -3,21 +3,17 @@
 # liczba wezlow, wezly numerowane sa od 1
 WEZLY = 5
 # kazdy wezel to trojka (identyfikator, wspolrzedna X, wspolrzedna Y)
-1 10 50
-2 30 56
-3 45 22
-4 90 23
-5 44 33
+1 10 10
+2 50 10
+3 30 30
+4 10 45
+5 50 50
 # liczba krawedzi
-LACZA = 10
+LACZA = 6
 # kazde lacze to trojka (identyfikator, wezel poczatkowy, wezel koncowy)
 1 1 2
 2 2 3
-3 3 4
-4 4 5
-5 5 1
-6 1 3
-7 1 4
-8 2 3
-9 2 4
-10 2 5
+3 3 5
+4 3 4
+5 4 5
+6 2 5

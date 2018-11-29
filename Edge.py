@@ -1,7 +1,12 @@
 class Edge():
+
     def __init__(self, ID, start, target):
         self.ID = ID
         self.start = start
         self.target = target
+
     def show(self):
-        print(self.ID, self.start, self.target)
+        print(self.ID, self.start, self.target, self.value)
+
+    #def set_value(self):
+    #    pass#self.value =
